@@ -63,3 +63,11 @@ x={}
 x[2]=10
 x[1]=[20,30,40]
 print(x[1][2])
+#Slicing of a python list
+lang=['python','swift','C++']
+print(lang[-1])
+my_list=['q','w','e','f','g','d','v','x']
+print(my_list[2:5])#this will print from index 2 to 4
+print(my_list[4:])#print from index 4 to end
+print(my_list[:])#This prints everything
+print(my_list[-3])#starting counting from back
